@@ -1,0 +1,41 @@
+footer {
+    border-top: 1px solid #CCCCCC;
+    padding: 54px 0 63px 0;
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        align-items: center;
+        padding-left: 10px;
+        margin-bottom: 31px;
+
+        .link {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #767676;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 12px;
+        color: #41413F;
+        padding-left: 10px;
+
+        span {
+            cursor: pointer;
+            text-decoration: underline;
+            color: #707070;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+}

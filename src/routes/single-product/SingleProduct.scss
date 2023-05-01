@@ -1,0 +1,120 @@
+.single-product__section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    .single-product-home-btn {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+
+    .single-product__wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        img {
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .single-product__info {
+
+            max-width: 500px;
+            width: 100%;
+            padding: 20px;
+
+            h1 {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 22px;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 32px;
+                color: #332;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 18px;
+                color: #333;
+                margin-bottom: 30px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #444;
+                margin-bottom: 30px;
+            }
+
+            .cart-btn {
+                max-width: 230px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 10px 0;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFF;
+                border-radius: 20px;
+
+
+                .cart {
+                    font-size: 20px;
+                }
+            }
+
+            .remove-btn {
+                background-color: crimson;
+                border: 2px solid crimson;
+
+                &:hover {
+                    background-color: #FFF;
+                    color: crimson;
+                }
+            }
+
+            .add-btn {
+                background-color: #3498CA;
+                border: 2px solid #3498CA;
+
+                &:hover {
+                    background-color: #FFF;
+                    color: #3498CA;
+                }
+            }
+        }
+
+        .heart-icon {
+            font-size: 30px;
+        }
+
+        .loader {
+            min-height: 500px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

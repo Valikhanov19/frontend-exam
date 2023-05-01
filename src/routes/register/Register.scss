@@ -1,0 +1,121 @@
+.register-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    p {
+        font-size: 16px;
+        line-height: 18px;
+        color: #191919;
+    }
+
+    .sign-in {
+        color: #0654BA;
+    }
+}
+
+.register-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 118px;
+}
+
+.registration-form-wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+
+    .registration-form {
+
+        max-width: 300px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #191919;
+
+        .user-fullname__inputs {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+
+            input {
+                display: inline-block;
+                max-width: 138px;
+                width: 100%;
+                padding: 12px 0px 12px 16px;
+                border: 1px solid #8F8F8F;
+                border-radius: 8px;
+                background-color: #F7F7F7;
+            }
+        }
+
+        .email-input,
+        .password-input,
+        .avatar-input {
+            width: 100%;
+            padding: 12px 0 12px 16px;
+            background-color: #F7F7F7;
+            border: 1px solid #8F8F8F;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+
+        .agreement-checkbox {
+            margin-right: 5px;
+        }
+
+        .create-btn {
+            width: 100%;
+            margin-top: 18px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            padding: 15px 0;
+            background-color: #0654BA;
+            border: 1px solid #0654BA;
+            border-radius: 24px;
+
+            &:hover {
+                opacity: 85%;
+            }
+
+            &:active {
+                opacity: 50%;
+            }
+        }
+
+    }
+
+    .singin-google-btn {
+        max-width: 300px;
+        width: 100%;
+        padding: 14px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        background-color: #FFFFFF;
+        border: 1px solid #888888;
+        border-radius: 24px;
+
+        &:hover {
+            opacity: 80%;
+        }
+
+        &:active {
+            opacity: 50%;
+        }
+    }
+}

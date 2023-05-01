@@ -1,0 +1,45 @@
+@import './reset';
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1308px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.loader-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.to-home-page {
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #3498CA;
+    border: 2px solid #3498CA;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: #FFF;
+        color: #3498CA;
+    }
+
+    &:active {
+        color: #144760;
+        border: solid 2px #144760;
+    }
+}
